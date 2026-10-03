@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Inzira Hub — AI creation, learning and productivity for Rwanda and the world.">
+
+  <title>Inzira Hub — The Journey To What's Possible</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADING SCREEN
+===================================================== -->
+
+<div id="loader">
+
+  <div class="loader-logo">
+    INZIRA <span>✦</span> HUB
+  </div>
+
+  <div class="loader-line">
+    <div></div>
+  </div>
+
+  <p>THE JOURNEY TO WHAT'S POSSIBLE</p>
+
+</div>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+  <a href="#home" class="logo">
+    INZIRA <span>✦</span> HUB
+  </a>
+
+  <button class="mobile-menu" onclick="toggleMenu()">
+    ☰
+  </button>
+
+  <nav id="navigation">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#tools">Tools</a>
+    <a href="#tutorials">Tutorials</a>
+    <a href="#pricing">Pricing</a>
+
+  </nav>
+
+  <div class="nav-right">
+
+    <select id="languageSelector" onchange="changeLanguage()">
+      <option value="en">English</option>
+      <option value="rw">Kinyarwanda</option>
+      <option value="fr">Français</option>
+    </select>
+
+    <a href="#chat" class="gold-button">
+      Start Creating
+    </a>
+
+  </div>
+
+</header>
+
+
+<!-- =====================================================
+     HOME
+===================================================== -->
+
+<section id="home" class="hero page-section">
+
+  <div class="hero-glow glow-one"></div>
+  <div class="hero-glow glow-two"></div>
+
+  <div class="hero-content">
+
+    <div class="badge">
+      🇷🇼 Rwandan-first AI • Kinyarwanda • English • Français
+    </div>
+
+    <h1>
+      THE JOURNEY
+      <br>
+      <span>TO WHAT'S POSSIBLE.</span>
+    </h1>
+
+    <p id="heroDescription">
+
+      Inzira means <strong>the way</strong>.
+
+      Inzira Hub is a creative AI ecosystem where
+      you can learn, imagine, build and turn ideas
+      into something real.
+
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#chat" class="gold-button big-button">
+        Start Your Journey →
+      </a>
+
+      <a href="#about" class="outline-button big-button">
+        Discover Inzira
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="floating-orb">
+
+    <div class="orb-inner">
+      ✦
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     STORY
+===================================================== -->
+
+<section id="about" class="story page-section">
+
+  <div class="section-number">
+    01 — THE STORY
+  </div>
+
+  <div class="story-grid">
+
+    <div>
+
+      <h2>
+        Built around
+        <span>a simple idea.</span>
+      </h2>
+
+    </div>
+
+    <div class="story-text">
+
+      <p>
+        Powerful technology should be easier to understand,
+        easier to access and easier to create with.
+      </p>
+
+      <p>
+        Inzira Hub was imagined with Rwanda in mind:
+        a place where people can interact with AI in
+        Kinyarwanda, English and French.
+      </p>
+
+      <p>
+        From students and creators to entrepreneurs,
+        businesses and everyday users, Inzira Hub is
+        designed to become a place where an idea can
+        become something real.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MANY THINGS YOU CAN DO
+===================================================== -->
+
+<section id="tools" class="tools-section page-section">
+
+  <div class="section-number">
+    02 — CREATE
+  </div>
+
+  <div class="section-title-row">
+
+    <h2>
+      Here are many things
+      <br>
+      <span>you can do with it.</span>
+    </h2>
+
+  </div>
+
+
+  <div class="tool-grid">
+
+
+    <a href="#chat" class="tool-card large-card">
+
+      <div class="tool-icon">🧠</div>
+
+      <h3>Inzira Chat</h3>
+
+      <p>
+        Ask questions, write, brainstorm,
+        plan and create with AI.
+      </p>
+
+      <span class="tool-link">
+        Open Chat →
+      </span>
+
+    </a>
+
+
+
+    <a href="#video" class="tool-card">
+
+      <div class="tool-icon">🎬</div>
+
+      <h3>Inzira Video</h3>
+
+      <p>
+        Turn your ideas into cinematic
+        video concepts.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#image" class="tool-card">
+
+      <div class="tool-icon">🎨</div>
+
+      <h3>Inzira Image</h3>
+
+      <p>
+        Create images, posters,
+        thumbnails and artwork.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#voice" class="tool-card">
+
+      <div class="tool-icon">🎙️</div>
+
+      <h3>Inzira Voice</h3>
+
+      <p>
+        Explore narration,
+        transcription and voice.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#translate" class="tool-card">
+
+      <div class="tool-icon">🌍</div>
+
+      <h3>Inzira Translate</h3>
+
+      <p>
+        Kinyarwanda, English
+        and French.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#learn" class="tool-card">
+
+      <div class="tool-icon">📚</div>
+
+      <h3>Inzira Learn</h3>
+
+      <p>
+        Study, understand and
+        practice with AI.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#business" class="tool-card">
+
+      <div class="tool-icon">💼</div>
+
+      <h3>Inzira Business</h3>
+
+      <p>
+        Turn ideas into business
+        plans and campaigns.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#music" class="tool-card">
+
+      <div class="tool-icon">🎵</div>
+
+      <h3>Inzira Music</h3>
+
+      <p>
+        Lyrics, concepts and
+        creative music ideas.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#documents" class="tool-card">
+
+      <div class="tool-icon">📄</div>
+
+      <h3>Inzira Documents</h3>
+
+      <p>
+        Work with documents,
+        summaries and information.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#code" class="tool-card">
+
+      <div class="tool-icon">💻</div>
+
+      <h3>Inzira Code</h3>
+
+      <p>
+        Build websites and software
+        with AI assistance.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#design" class="tool-card">
+
+      <div class="tool-icon">✨</div>
+
+      <h3>Inzira Design</h3>
+
+      <p>
+        Create logos, posters,
+        graphics and thumbnails.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+
+
+    <a href="#social" class="tool-card">
+
+      <div class="tool-icon">📱</div>
+
+      <h3>Inzira Social</h3>
+
+      <p>
+        Turn one idea into
+        social-media content.
+      </p>
+
+      <span class="tool-link">
+        Open →
+      </span>
+
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     TUTORIALS
+===================================================== -->
+
+<section id="tutorials" class="tutorial-section page-section">
+
+  <div class="gold-panel">
+
+    <div>
+
+      <div class="dark-label">
+        03 — INZIRA ACADEMY
+      </div>
+
+      <h2>
+        Don't just use AI.
+        <br>
+        <span>Learn how to master it.</span>
+      </h2>
+
+      <p>
+        Step-by-step tutorials for beginners,
+        creators, students and businesses.
+      </p>
+
+    </div>
+
+    <a href="#tutorial-library"
+       class="black-button">
+
+       Explore Tutorials →
+
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     TUTORIAL LIBRARY
+===================================================== -->
+
+<section id="tutorial-library"
+         class="tutorial-library page-section">
+
+  <div class="section-number">
+    04 — LEARN
+  </div>
+
+  <h2>
+    Learn.
+    <span>Practice.</span>
+    Create.
+  </h2>
+
+
+  <div class="tutorial-grid">
+
+
+    <article class="tutorial-card">
+
+      <span>01</span>
+
+      <h3>
+        AI Basics
+      </h3>
+
+      <p>
+        Learn what AI is and how to
+        communicate with it.
+      </p>
+
+      <button onclick="openTutorial('AI Basics')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+
+
+    <article class="tutorial-card">
+
+      <span>02</span>
+
+      <h3>
+        Create AI Videos
+      </h3>
+
+      <p>
+        Learn how to turn an idea
+        into a video production.
+      </p>
+
+      <button onclick="openTutorial('AI Video Creation')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+
+
+    <article class="tutorial-card">
+
+      <span>03</span>
+
+      <h3>
+        Create Better Images
+      </h3>
+
+      <p>
+        Learn how to describe scenes,
+        characters and visual styles.
+      </p>
+
+      <button onclick="openTutorial('AI Image Creation')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+
+
+    <article class="tutorial-card">
+
+      <span>04</span>
+
+      <h3>
+        AI For Business
+      </h3>
+
+      <p>
+        Use AI for business planning,
+        marketing and content.
+      </p>
+
+      <button onclick="openTutorial('AI For Business')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+
+
+    <article class="tutorial-card">
+
+      <span>05</span>
+
+      <h3>
+        Study With AI
+      </h3>
+
+      <p>
+        Turn notes into explanations,
+        quizzes and revision.
+      </p>
+
+      <button onclick="openTutorial('Study With AI')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+
+
+    <article class="tutorial-card">
+
+      <span>06</span>
+
+      <h3>
+        Build A Website
+      </h3>
+
+      <p>
+        Learn HTML, CSS, JavaScript
+        and GitHub.
+      </p>
+
+      <button onclick="openTutorial('Build A Website')">
+        Start Tutorial →
+      </button>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LANGUAGE
+===================================================== -->
+
+<section class="language-section page-section">
+
+  <div class="section-number">
+    05 — YOUR LANGUAGE
+  </div>
+
+  <h2>
+    Your language should never
+    <br>
+    limit your <span>imagination.</span>
+  </h2>
+
+
+  <div class="language-grid">
+
+    <div>
+      🇷🇼
+      <strong>KINYARWANDA</strong>
+    </div>
+
+    <div>
+      🇬🇧
+      <strong>ENGLISH</strong>
+    </div>
+
+    <div>
+      🇫🇷
+      <strong>FRANÇAIS</strong>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     AI WORKSPACE SECTIONS
+===================================================== -->
+
+
+<section id="chat" class="workspace-section">
+
+  <div class="workspace">
+
+    <div class="section-number">
+      INZIRA CHAT
+    </div>
+
+    <h2>
+      What will we
+      <span>create?</span>
+    </h2>
+
+    <div id="chatMessages"
+         class="chat-messages">
+
+      <div class="ai-message">
+
+        Muraho! 👋
+
+        I'm Inzira Chat.
+
+        Tell me what you want to create.
+
+      </div>
+
+    </div>
+
+
+    <div class="chat-input">
+
+      <textarea
+        id="chatInput"
+        placeholder="Ask in Kinyarwanda, English or French...">
+      </textarea>
+
+      <button
+        onclick="sendMessage()"
+        class="gold-button">
+
+        Send ↑
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="video" class="workspace-section">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA VIDEO
+    </div>
+
+    <h2>
+      Turn an idea into
+      <span>motion.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe your video...">
+    </textarea>
+
+    <div class="options">
+
+      <button>🎬 Advertisement</button>
+      <button>🎵 Music Video</button>
+      <button>📱 Social Video</button>
+      <button>🎞️ Short Film</button>
+
+    </div>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Video Generation')">
+
+      Generate Video →
+
+    </button>
+
+    <div class="preview">
+      🎬
+      <br>
+      VIDEO PREVIEW
+      <small>
+        Connect the video-generation backend to
+        activate this feature.
+      </small>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="image" class="workspace-section">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA IMAGE
+    </div>
+
+    <h2>
+      Imagine it.
+      <span>Create it.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe the image you want...">
+    </textarea>
+
+    <div class="options">
+
+      <button>🖼️ Generate</button>
+      <button>✏️ Edit</button>
+      <button>🧹 Remove Background</button>
+      <button>📺 Thumbnail</button>
+
+    </div>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Image Generation')">
+
+      Create Image →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="voice" class="workspace-section">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA VOICE
+    </div>
+
+    <h2>
+      Give your ideas a
+      <span>voice.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Write the text you want spoken...">
+    </textarea>
+
+    <div class="options">
+
+      <button>🇷🇼 Kinyarwanda</button>
+      <button>🇬🇧 English</button>
+      <button>🇫🇷 Français</button>
+
+    </div>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Voice Generation')">
+
+      Generate Voice →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="translate" class="workspace-section">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA TRANSLATE
+    </div>
+
+    <h2>
+      Language should never be a
+      <span>barrier.</span>
+    </h2>
+
+    <div class="translation-box">
+
+      <textarea
+        placeholder="Write or paste text...">
+      </textarea>
+
+      <textarea
+        placeholder="Translation appears here...">
+      </textarea>
+
+    </div>
+
+    <div class="options">
+
+      <button>
+        🇷🇼 Kinyarwanda → English
+      </button>
+
+      <button>
+        🇬🇧 English → Kinyarwanda
+      </button>
+
+      <button>
+        🇫🇷 Français → Kinyarwanda
+      </button>
+
+    </div>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Translation')">
+
+      Translate →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="learn" class="workspace-section">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA LEARN
+    </div>
+
+    <h2>
+      Learn it.
+      <span>Understand it.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="What do you want to learn today?">
+    </textarea>
+
+    <div class="options">
+
+      <button>📖 Explain</button>
+      <button>📝 Quiz Me</button>
+      <button>🧠 Flashcards</button>
+      <button>📄 Summarize</button>
+
+    </div>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Inzira Learn')">
+
+      Start Learning →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     OTHER TOOLS
+===================================================== -->
+
+<section id="business" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA BUSINESS
+    </div>
+
+    <h2>
+      Turn ideas into
+      <span>opportunity.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe your business idea...">
+    </textarea>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Business AI')">
+
+      Build My Idea →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="music" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA MUSIC
+    </div>
+
+    <h2>
+      Turn creativity into
+      <span>sound.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe your song or lyrics idea...">
+    </textarea>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Inzira Music')">
+
+      Create →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="documents" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA DOCUMENTS
+    </div>
+
+    <h2>
+      Your documents,
+      <span>understood.</span>
+    </h2>
+
+    <div class="upload-box">
+
+      📄
+
+      <strong>
+        Upload a document
+      </strong>
+
+      <small>
+        Document processing activates
+        after backend integration.
+      </small>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="code" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA CODE
+    </div>
+
+    <h2>
+      Build with
+      <span>AI.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe the website or application you want...">
+    </textarea>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Inzira Code')">
+
+      Generate Code →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="design" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA DESIGN
+    </div>
+
+    <h2>
+      Design without
+      <span>limits.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="What should we design?">
+    </textarea>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Inzira Design')">
+
+      Create Design →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<section id="social" class="mini-tool">
+
+  <div class="creator">
+
+    <div class="section-number">
+      INZIRA SOCIAL
+    </div>
+
+    <h2>
+      One idea.
+      <span>Every platform.</span>
+    </h2>
+
+    <textarea
+      class="large-input"
+      placeholder="Describe the content you want to create...">
+    </textarea>
+
+    <button
+      class="gold-button big-button"
+      onclick="showComingSoon('Inzira Social')">
+
+      Create Campaign →
+
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PRICING
+===================================================== -->
+
+<section id="pricing"
+         class="pricing-section page-section">
+
+  <div class="section-number">
+    06 — PRICING
+  </div>
+
+  <h2>
+    Start free.
+    <span>Grow when ready.</span>
+  </h2>
+
+
+  <div class="pricing-grid">
+
+
+    <div class="price-card">
+
+      <small>FREE</small>
+
+      <h3>0</h3>
+
+      <p>
+        Explore Inzira Hub.
+      </p>
+
+      <ul>
+        <li>Basic AI tools</li>
+        <li>Limited generations</li>
+        <li>Tutorials</li>
+      </ul>
+
+      <a href="#chat"
+         class="outline-button">
+        Try Inzira
+      </a>
+
+    </div>
+
+
+
+    <div class="price-card featured-price">
+
+      <small>PLUS</small>
+
+      <h3>COMING SOON</h3>
+
+      <p>
+        More creative power.
+      </p>
+
+      <ul>
+        <li>Higher limits</li>
+        <li>Advanced tools</li>
+        <li>Projects</li>
+      </ul>
+
+      <button
+        class="gold-button"
+        onclick="showComingSoon('Inzira Plus')">
+
+        Join Waitlist
+
+      </button>
+
+    </div>
+
+
+
+    <div class="price-card">
+
+      <small>BUSINESS</small>
+
+      <h3>CUSTOM</h3>
+
+      <p>
+        Tools for organizations.
+      </p>
+
+      <ul>
+        <li>Team workspace</li>
+        <li>Administration</li>
+        <li>Business support</li>
+      </ul>
+
+      <button
+        class="outline-button"
+        onclick="showComingSoon('Business')">
+
+        Learn More
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="final-section">
+
+  <div class="section-number">
+    07 — BEGIN
+  </div>
+
+  <h2>
+    Your journey starts
+    <br>
+    with <span>one idea.</span>
+  </h2>
+
+  <a href="#chat"
+     class="gold-button big-button">
+
+     Welcome to Inzira Hub →
+
+  </a>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+  <a href="#home"
+     class="logo">
+
+     INZIRA <span>✦</span> HUB
+
+  </a>
+
+  <p>
+    AI made accessible.
+    Built with Rwanda in mind.
+  </p>
+
+  <p>
+    © 2026 Inzira Hub
+  </p>
+
+</footer>
+
+
+<!-- =====================================================
+     MODAL
+===================================================== -->
+
+<div id="modal"
+     class="modal">
+
+  <div class="modal-box">
+
+    <button
+      class="close-modal"
+      onclick="closeModal()">
+
+      ×
+
+    </button>
+
+    <div class="modal-icon">
+      ✦
+    </div>
+
+    <h2 id="modalTitle">
+      Coming Soon
+    </h2>
+
+    <p id="modalText">
+      This feature is part of the Inzira Hub
+      production system.
+    </p>
+
+    <button
+      class="gold-button"
+      onclick="closeModal()">
+
+      Got it
+
+    </button>
+
+  </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
