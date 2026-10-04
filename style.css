@@ -1,1357 +1,996 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="description"
-        content="Inzira Hub — AI creation, learning and productivity for Rwanda and the world.">
-
-  <title>Inzira Hub — The Journey To What's Possible</title>
-
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- =====================================================
-     LOADING SCREEN
-===================================================== -->
-
-<div id="loader">
-
-  <div class="loader-logo">
-    INZIRA <span>✦</span> HUB
-  </div>
-
-  <div class="loader-line">
-    <div></div>
-  </div>
-
-  <p>THE JOURNEY TO WHAT'S POSSIBLE</p>
-
-</div>
-
-
-<!-- =====================================================
-     NAVIGATION
-===================================================== -->
-
-<header class="navbar">
-
-  <a href="#home" class="logo">
-    INZIRA <span>✦</span> HUB
-  </a>
-
-  <button class="mobile-menu" onclick="toggleMenu()">
-    ☰
-  </button>
-
-  <nav id="navigation">
-
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#tools">Tools</a>
-    <a href="#tutorials">Tutorials</a>
-    <a href="#pricing">Pricing</a>
-
-  </nav>
-
-  <div class="nav-right">
-
-    <select id="languageSelector" onchange="changeLanguage()">
-      <option value="en">English</option>
-      <option value="rw">Kinyarwanda</option>
-      <option value="fr">Français</option>
-    </select>
-
-    <a href="#chat" class="gold-button">
-      Start Creating
-    </a>
-
-  </div>
-
-</header>
-
-
-<!-- =====================================================
-     HOME
-===================================================== -->
-
-<section id="home" class="hero page-section">
-
-  <div class="hero-glow glow-one"></div>
-  <div class="hero-glow glow-two"></div>
-
-  <div class="hero-content">
-
-    <div class="badge">
-      🇷🇼 Rwandan-first AI • Kinyarwanda • English • Français
-    </div>
-
-    <h1>
-      THE JOURNEY
-      <br>
-      <span>TO WHAT'S POSSIBLE.</span>
-    </h1>
-
-    <p id="heroDescription">
-
-      Inzira means <strong>the way</strong>.
-
-      Inzira Hub is a creative AI ecosystem where
-      you can learn, imagine, build and turn ideas
-      into something real.
-
-    </p>
-
-    <div class="hero-buttons">
-
-      <a href="#chat" class="gold-button big-button">
-        Start Your Journey →
-      </a>
-
-      <a href="#about" class="outline-button big-button">
-        Discover Inzira
-      </a>
-
-    </div>
-
-  </div>
-
-
-  <div class="floating-orb">
-
-    <div class="orb-inner">
-      ✦
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     STORY
-===================================================== -->
-
-<section id="about" class="story page-section">
-
-  <div class="section-number">
-    01 — THE STORY
-  </div>
-
-  <div class="story-grid">
-
-    <div>
-
-      <h2>
-        Built around
-        <span>a simple idea.</span>
-      </h2>
-
-    </div>
-
-    <div class="story-text">
-
-      <p>
-        Powerful technology should be easier to understand,
-        easier to access and easier to create with.
-      </p>
-
-      <p>
-        Inzira Hub was imagined with Rwanda in mind:
-        a place where people can interact with AI in
-        Kinyarwanda, English and French.
-      </p>
-
-      <p>
-        From students and creators to entrepreneurs,
-        businesses and everyday users, Inzira Hub is
-        designed to become a place where an idea can
-        become something real.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     MANY THINGS YOU CAN DO
-===================================================== -->
-
-<section id="tools" class="tools-section page-section">
-
-  <div class="section-number">
-    02 — CREATE
-  </div>
-
-  <div class="section-title-row">
-
-    <h2>
-      Here are many things
-      <br>
-      <span>you can do with it.</span>
-    </h2>
-
-  </div>
-
-
-  <div class="tool-grid">
-
-
-    <a href="#chat" class="tool-card large-card">
-
-      <div class="tool-icon">🧠</div>
-
-      <h3>Inzira Chat</h3>
-
-      <p>
-        Ask questions, write, brainstorm,
-        plan and create with AI.
-      </p>
-
-      <span class="tool-link">
-        Open Chat →
-      </span>
-
-    </a>
-
-
-
-    <a href="#video" class="tool-card">
-
-      <div class="tool-icon">🎬</div>
-
-      <h3>Inzira Video</h3>
-
-      <p>
-        Turn your ideas into cinematic
-        video concepts.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#image" class="tool-card">
-
-      <div class="tool-icon">🎨</div>
-
-      <h3>Inzira Image</h3>
-
-      <p>
-        Create images, posters,
-        thumbnails and artwork.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#voice" class="tool-card">
-
-      <div class="tool-icon">🎙️</div>
-
-      <h3>Inzira Voice</h3>
-
-      <p>
-        Explore narration,
-        transcription and voice.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#translate" class="tool-card">
-
-      <div class="tool-icon">🌍</div>
-
-      <h3>Inzira Translate</h3>
-
-      <p>
-        Kinyarwanda, English
-        and French.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#learn" class="tool-card">
-
-      <div class="tool-icon">📚</div>
-
-      <h3>Inzira Learn</h3>
-
-      <p>
-        Study, understand and
-        practice with AI.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#business" class="tool-card">
-
-      <div class="tool-icon">💼</div>
-
-      <h3>Inzira Business</h3>
-
-      <p>
-        Turn ideas into business
-        plans and campaigns.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#music" class="tool-card">
-
-      <div class="tool-icon">🎵</div>
-
-      <h3>Inzira Music</h3>
-
-      <p>
-        Lyrics, concepts and
-        creative music ideas.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#documents" class="tool-card">
-
-      <div class="tool-icon">📄</div>
-
-      <h3>Inzira Documents</h3>
-
-      <p>
-        Work with documents,
-        summaries and information.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#code" class="tool-card">
-
-      <div class="tool-icon">💻</div>
-
-      <h3>Inzira Code</h3>
-
-      <p>
-        Build websites and software
-        with AI assistance.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#design" class="tool-card">
-
-      <div class="tool-icon">✨</div>
-
-      <h3>Inzira Design</h3>
-
-      <p>
-        Create logos, posters,
-        graphics and thumbnails.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-
-
-    <a href="#social" class="tool-card">
-
-      <div class="tool-icon">📱</div>
-
-      <h3>Inzira Social</h3>
-
-      <p>
-        Turn one idea into
-        social-media content.
-      </p>
-
-      <span class="tool-link">
-        Open →
-      </span>
-
-    </a>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     TUTORIALS
-===================================================== -->
-
-<section id="tutorials" class="tutorial-section page-section">
-
-  <div class="gold-panel">
-
-    <div>
-
-      <div class="dark-label">
-        03 — INZIRA ACADEMY
-      </div>
-
-      <h2>
-        Don't just use AI.
-        <br>
-        <span>Learn how to master it.</span>
-      </h2>
-
-      <p>
-        Step-by-step tutorials for beginners,
-        creators, students and businesses.
-      </p>
-
-    </div>
-
-    <a href="#tutorial-library"
-       class="black-button">
-
-       Explore Tutorials →
-
-    </a>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     TUTORIAL LIBRARY
-===================================================== -->
-
-<section id="tutorial-library"
-         class="tutorial-library page-section">
-
-  <div class="section-number">
-    04 — LEARN
-  </div>
-
-  <h2>
-    Learn.
-    <span>Practice.</span>
-    Create.
-  </h2>
-
-
-  <div class="tutorial-grid">
-
-
-    <article class="tutorial-card">
-
-      <span>01</span>
-
-      <h3>
-        AI Basics
-      </h3>
-
-      <p>
-        Learn what AI is and how to
-        communicate with it.
-      </p>
-
-      <button onclick="openTutorial('AI Basics')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-
-
-    <article class="tutorial-card">
-
-      <span>02</span>
-
-      <h3>
-        Create AI Videos
-      </h3>
-
-      <p>
-        Learn how to turn an idea
-        into a video production.
-      </p>
-
-      <button onclick="openTutorial('AI Video Creation')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-
-
-    <article class="tutorial-card">
-
-      <span>03</span>
-
-      <h3>
-        Create Better Images
-      </h3>
-
-      <p>
-        Learn how to describe scenes,
-        characters and visual styles.
-      </p>
-
-      <button onclick="openTutorial('AI Image Creation')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-
-
-    <article class="tutorial-card">
-
-      <span>04</span>
-
-      <h3>
-        AI For Business
-      </h3>
-
-      <p>
-        Use AI for business planning,
-        marketing and content.
-      </p>
-
-      <button onclick="openTutorial('AI For Business')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-
-
-    <article class="tutorial-card">
-
-      <span>05</span>
-
-      <h3>
-        Study With AI
-      </h3>
-
-      <p>
-        Turn notes into explanations,
-        quizzes and revision.
-      </p>
-
-      <button onclick="openTutorial('Study With AI')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-
-
-    <article class="tutorial-card">
-
-      <span>06</span>
-
-      <h3>
-        Build A Website
-      </h3>
-
-      <p>
-        Learn HTML, CSS, JavaScript
-        and GitHub.
-      </p>
-
-      <button onclick="openTutorial('Build A Website')">
-        Start Tutorial →
-      </button>
-
-    </article>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     LANGUAGE
-===================================================== -->
-
-<section class="language-section page-section">
-
-  <div class="section-number">
-    05 — YOUR LANGUAGE
-  </div>
-
-  <h2>
-    Your language should never
-    <br>
-    limit your <span>imagination.</span>
-  </h2>
-
-
-  <div class="language-grid">
-
-    <div>
-      🇷🇼
-      <strong>KINYARWANDA</strong>
-    </div>
-
-    <div>
-      🇬🇧
-      <strong>ENGLISH</strong>
-    </div>
-
-    <div>
-      🇫🇷
-      <strong>FRANÇAIS</strong>
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     AI WORKSPACE SECTIONS
-===================================================== -->
-
-
-<section id="chat" class="workspace-section">
-
-  <div class="workspace">
-
-    <div class="section-number">
-      INZIRA CHAT
-    </div>
-
-    <h2>
-      What will we
-      <span>create?</span>
-    </h2>
-
-    <div id="chatMessages"
-         class="chat-messages">
-
-      <div class="ai-message">
-
-        Muraho! 👋
-
-        I'm Inzira Chat.
-
-        Tell me what you want to create.
-
-      </div>
-
-    </div>
-
-
-    <div class="chat-input">
-
-      <textarea
-        id="chatInput"
-        placeholder="Ask in Kinyarwanda, English or French...">
-      </textarea>
-
-      <button
-        onclick="sendMessage()"
-        class="gold-button">
-
-        Send ↑
-
-      </button>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<section id="video" class="workspace-section">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA VIDEO
-    </div>
-
-    <h2>
-      Turn an idea into
-      <span>motion.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe your video...">
-    </textarea>
-
-    <div class="options">
-
-      <button>🎬 Advertisement</button>
-      <button>🎵 Music Video</button>
-      <button>📱 Social Video</button>
-      <button>🎞️ Short Film</button>
-
-    </div>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Video Generation')">
-
-      Generate Video →
-
-    </button>
-
-    <div class="preview">
-      🎬
-      <br>
-      VIDEO PREVIEW
-      <small>
-        Connect the video-generation backend to
-        activate this feature.
-      </small>
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<section id="image" class="workspace-section">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA IMAGE
-    </div>
-
-    <h2>
-      Imagine it.
-      <span>Create it.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe the image you want...">
-    </textarea>
-
-    <div class="options">
-
-      <button>🖼️ Generate</button>
-      <button>✏️ Edit</button>
-      <button>🧹 Remove Background</button>
-      <button>📺 Thumbnail</button>
-
-    </div>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Image Generation')">
-
-      Create Image →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="voice" class="workspace-section">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA VOICE
-    </div>
-
-    <h2>
-      Give your ideas a
-      <span>voice.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Write the text you want spoken...">
-    </textarea>
-
-    <div class="options">
-
-      <button>🇷🇼 Kinyarwanda</button>
-      <button>🇬🇧 English</button>
-      <button>🇫🇷 Français</button>
-
-    </div>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Voice Generation')">
-
-      Generate Voice →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="translate" class="workspace-section">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA TRANSLATE
-    </div>
-
-    <h2>
-      Language should never be a
-      <span>barrier.</span>
-    </h2>
-
-    <div class="translation-box">
-
-      <textarea
-        placeholder="Write or paste text...">
-      </textarea>
-
-      <textarea
-        placeholder="Translation appears here...">
-      </textarea>
-
-    </div>
-
-    <div class="options">
-
-      <button>
-        🇷🇼 Kinyarwanda → English
-      </button>
-
-      <button>
-        🇬🇧 English → Kinyarwanda
-      </button>
-
-      <button>
-        🇫🇷 Français → Kinyarwanda
-      </button>
-
-    </div>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Translation')">
-
-      Translate →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="learn" class="workspace-section">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA LEARN
-    </div>
-
-    <h2>
-      Learn it.
-      <span>Understand it.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="What do you want to learn today?">
-    </textarea>
-
-    <div class="options">
-
-      <button>📖 Explain</button>
-      <button>📝 Quiz Me</button>
-      <button>🧠 Flashcards</button>
-      <button>📄 Summarize</button>
-
-    </div>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Inzira Learn')">
-
-      Start Learning →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     OTHER TOOLS
-===================================================== -->
-
-<section id="business" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA BUSINESS
-    </div>
-
-    <h2>
-      Turn ideas into
-      <span>opportunity.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe your business idea...">
-    </textarea>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Business AI')">
-
-      Build My Idea →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="music" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA MUSIC
-    </div>
-
-    <h2>
-      Turn creativity into
-      <span>sound.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe your song or lyrics idea...">
-    </textarea>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Inzira Music')">
-
-      Create →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="documents" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA DOCUMENTS
-    </div>
-
-    <h2>
-      Your documents,
-      <span>understood.</span>
-    </h2>
-
-    <div class="upload-box">
-
-      📄
-
-      <strong>
-        Upload a document
-      </strong>
-
-      <small>
-        Document processing activates
-        after backend integration.
-      </small>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<section id="code" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA CODE
-    </div>
-
-    <h2>
-      Build with
-      <span>AI.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe the website or application you want...">
-    </textarea>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Inzira Code')">
-
-      Generate Code →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="design" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA DESIGN
-    </div>
-
-    <h2>
-      Design without
-      <span>limits.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="What should we design?">
-    </textarea>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Inzira Design')">
-
-      Create Design →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<section id="social" class="mini-tool">
-
-  <div class="creator">
-
-    <div class="section-number">
-      INZIRA SOCIAL
-    </div>
-
-    <h2>
-      One idea.
-      <span>Every platform.</span>
-    </h2>
-
-    <textarea
-      class="large-input"
-      placeholder="Describe the content you want to create...">
-    </textarea>
-
-    <button
-      class="gold-button big-button"
-      onclick="showComingSoon('Inzira Social')">
-
-      Create Campaign →
-
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     PRICING
-===================================================== -->
-
-<section id="pricing"
-         class="pricing-section page-section">
-
-  <div class="section-number">
-    06 — PRICING
-  </div>
-
-  <h2>
-    Start free.
-    <span>Grow when ready.</span>
-  </h2>
-
-
-  <div class="pricing-grid">
-
-
-    <div class="price-card">
-
-      <small>FREE</small>
-
-      <h3>0</h3>
-
-      <p>
-        Explore Inzira Hub.
-      </p>
-
-      <ul>
-        <li>Basic AI tools</li>
-        <li>Limited generations</li>
-        <li>Tutorials</li>
-      </ul>
-
-      <a href="#chat"
-         class="outline-button">
-        Try Inzira
-      </a>
-
-    </div>
-
-
-
-    <div class="price-card featured-price">
-
-      <small>PLUS</small>
-
-      <h3>COMING SOON</h3>
-
-      <p>
-        More creative power.
-      </p>
-
-      <ul>
-        <li>Higher limits</li>
-        <li>Advanced tools</li>
-        <li>Projects</li>
-      </ul>
-
-      <button
-        class="gold-button"
-        onclick="showComingSoon('Inzira Plus')">
-
-        Join Waitlist
-
-      </button>
-
-    </div>
-
-
-
-    <div class="price-card">
-
-      <small>BUSINESS</small>
-
-      <h3>CUSTOM</h3>
-
-      <p>
-        Tools for organizations.
-      </p>
-
-      <ul>
-        <li>Team workspace</li>
-        <li>Administration</li>
-        <li>Business support</li>
-      </ul>
-
-      <button
-        class="outline-button"
-        onclick="showComingSoon('Business')">
-
-        Learn More
-
-      </button>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     FINAL CTA
-===================================================== -->
-
-<section class="final-section">
-
-  <div class="section-number">
-    07 — BEGIN
-  </div>
-
-  <h2>
-    Your journey starts
-    <br>
-    with <span>one idea.</span>
-  </h2>
-
-  <a href="#chat"
-     class="gold-button big-button">
-
-     Welcome to Inzira Hub →
-
-  </a>
-
-</section>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer>
-
-  <a href="#home"
-     class="logo">
-
-     INZIRA <span>✦</span> HUB
-
-  </a>
-
-  <p>
-    AI made accessible.
-    Built with Rwanda in mind.
-  </p>
-
-  <p>
-    © 2026 Inzira Hub
-  </p>
-
-</footer>
-
-
-<!-- =====================================================
-     MODAL
-===================================================== -->
-
-<div id="modal"
-     class="modal">
-
-  <div class="modal-box">
-
-    <button
-      class="close-modal"
-      onclick="closeModal()">
-
-      ×
-
-    </button>
-
-    <div class="modal-icon">
-      ✦
-    </div>
-
-    <h2 id="modalTitle">
-      Coming Soon
-    </h2>
-
-    <p id="modalText">
-      This feature is part of the Inzira Hub
-      production system.
-    </p>
-
-    <button
-      class="gold-button"
-      onclick="closeModal()">
-
-      Got it
-
-    </button>
-
-  </div>
-
-</div>
-
-
-<script src="app.js"></script>
-
-</body>
-</html>
+:root {
+  --gold: #d4af37;
+  --gold-light: #f4d76b;
+  --gold-dark: #9b7a18;
+  --black: #050505;
+  --black-soft: #0c0c0c;
+  --black-card: #111111;
+  --white: #ffffff;
+  --gray: #a5a5a5;
+  --border: rgba(212, 175, 55, 0.18);
+
+  --radius: 20px;
+  --transition: 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--black);
+  color: var(--white);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+button,
+select,
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================
+   LOADER
+========================= */
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+#loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader-logo {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.loader-logo span,
+.logo span,
+.footer-logo span {
+  color: var(--gold);
+}
+
+.loader-bar {
+  width: 130px;
+  height: 3px;
+  margin-top: 20px;
+  background: #222;
+  overflow: hidden;
+}
+
+.loader-bar div {
+  width: 40%;
+  height: 100%;
+  background: var(--gold);
+  animation: loading 0.8s infinite ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(350%);
+  }
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 76px;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 5%;
+
+  background: rgba(5, 5, 5, 0.94);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 28px;
+}
+
+.navbar nav a {
+  color: #bbb;
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.navbar nav a:hover {
+  color: var(--gold);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#languageSelect {
+  background: #111;
+  border: 1px solid var(--border);
+  color: white;
+  padding: 9px 10px;
+  border-radius: 8px;
+}
+
+.nav-button,
+.primary-btn {
+  border: none;
+  background: var(--gold);
+  color: #080808;
+  font-weight: 800;
+  padding: 12px 18px;
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+.nav-button:hover,
+.primary-btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+.menu-button {
+  display: none;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  min-height: 100vh;
+  padding: 150px 7% 80px;
+
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 50px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+
+  right: -180px;
+  top: 120px;
+
+  background: rgba(212, 175, 55, 0.10);
+  filter: blur(90px);
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--border);
+  background: rgba(212, 175, 55, 0.05);
+  color: var(--gold-light);
+  border-radius: 100px;
+  padding: 8px 14px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  max-width: 850px;
+  font-size: clamp(3rem, 7vw, 6.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+  font-weight: 900;
+}
+
+.hero h1 span {
+  color: var(--gold);
+}
+
+.hero p {
+  max-width: 600px;
+  color: var(--gray);
+  margin: 28px 0;
+  font-size: 1.05rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.secondary-btn {
+  border: 1px solid #333;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: #ddd;
+  transition: var(--transition);
+}
+
+.secondary-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.hero-stats {
+  display: flex;
+  gap: 45px;
+  margin-top: 55px;
+}
+
+.hero-stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-stats strong {
+  color: var(--gold);
+  font-size: 1.5rem;
+}
+
+.hero-stats span {
+  color: #777;
+  font-size: 0.75rem;
+}
+
+.hero-card {
+  height: 480px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.orb {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(circle at 30% 30%, #fff0a5, var(--gold) 25%, #775b0c 55%, #111 70%);
+
+  box-shadow:
+    0 0 70px rgba(212, 175, 55, 0.25);
+
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.floating-card {
+  position: absolute;
+  background: rgba(15, 15, 15, 0.96);
+  border: 1px solid var(--border);
+  padding: 14px 18px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.card-one {
+  top: 90px;
+  right: 20px;
+}
+
+.card-two {
+  bottom: 100px;
+  left: 10px;
+}
+
+.card-three {
+  bottom: 35px;
+  right: 60px;
+}
+
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+.section {
+  padding: 120px 7%;
+}
+
+.section-label {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  margin-bottom: 25px;
+}
+
+.section-heading {
+  max-width: 800px;
+  margin-bottom: 55px;
+}
+
+.section-heading h2,
+.story-grid h2 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.section-heading h2 span,
+.story-grid h2 span,
+.language-section span,
+.vision-section span {
+  color: var(--gold);
+}
+
+.section-heading p {
+  color: var(--gray);
+  margin-top: 20px;
+}
+
+
+/* =========================
+   STORY
+========================= */
+
+.story-section {
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.story-text {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.story-text p {
+  margin-bottom: 22px;
+}
+
+.story-text strong {
+  color: white;
+}
+
+
+/* =========================
+   TOOLS
+========================= */
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.tool-card {
+  min-height: 230px;
+  padding: 25px;
+
+  background: var(--black-card);
+  border: 1px solid #1e1e1e;
+  border-radius: var(--radius);
+
+  transition: transform var(--transition), border-color var(--transition);
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(212, 175, 55, 0.55);
+}
+
+.tool-card.featured {
+  background:
+    linear-gradient(145deg, rgba(212,175,55,0.13), rgba(17,17,17,1));
+  border-color: rgba(212,175,55,0.3);
+}
+
+.tool-icon {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.tool-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tool-card p {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+.tool-card span {
+  color: var(--gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+
+/* =========================
+   TUTORIALS
+========================= */
+
+.tutorials-section {
+  background: #090909;
+}
+
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.tutorial-card {
+  border: 1px solid #222;
+  padding: 30px;
+  border-radius: var(--radius);
+  background: #0e0e0e;
+}
+
+.tutorial-card > span {
+  color: var(--gold);
+  font-weight: 800;
+  font-size: 0.75rem;
+}
+
+.tutorial-card h3 {
+  margin: 35px 0 12px;
+}
+
+.tutorial-card p {
+  color: #888;
+  font-size: 0.85rem;
+  min-height: 75px;
+}
+
+.tutorial-card button {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+
+/* =========================
+   LANGUAGE
+========================= */
+
+.language-section {
+  padding: 100px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background: var(--gold);
+  color: #080808;
+}
+
+.language-section .section-label {
+  color: #4e3a00;
+}
+
+.language-section h2 {
+  max-width: 650px;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1;
+}
+
+.language-section h2 span {
+  color: #000;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.language-list div {
+  border: 1px solid rgba(0,0,0,0.25);
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+
+/* =========================
+   VISION
+========================= */
+
+.vision-section {
+  text-align: center;
+}
+
+.vision-section h2 {
+  max-width: 1000px;
+  margin: auto;
+  font-size: clamp(2.8rem, 7vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+}
+
+.vision-section p {
+  max-width: 650px;
+  margin: 35px auto 0;
+  color: #888;
+}
+
+
+/* =========================
+   PRICING
+========================= */
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.price-card {
+  position: relative;
+  padding: 35px;
+  background: #101010;
+  border: 1px solid #222;
+  border-radius: var(--radius);
+}
+
+.price-card.popular {
+  border-color: var(--gold);
+}
+
+.popular-label {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: var(--gold);
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.price-card h3 {
+  font-size: 1.3rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 25px 0;
+  color: var(--gold);
+}
+
+.price-card ul {
+  list-style: none;
+  color: #aaa;
+  line-height: 2.3;
+  margin-bottom: 25px;
+}
+
+.price-card button {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.price-card button:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.final-cta {
+  position: relative;
+  overflow: hidden;
+  padding: 140px 7%;
+  text-align: center;
+  background: #090909;
+}
+
+.final-cta > * {
+  position: relative;
+  z-index: 2;
+}
+
+.final-cta span {
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  font-weight: 800;
+}
+
+.final-cta h2 {
+  font-size: clamp(3rem, 7vw, 7rem);
+  letter-spacing: -0.07em;
+  margin: 20px 0 35px;
+}
+
+.final-cta strong {
+  color: var(--gold);
+}
+
+.cta-glow {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(212,175,55,0.08);
+  filter: blur(80px);
+  border-radius: 50%;
+}
+
+
+/* =========================
+   MODALS
+========================= */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+
+  background: rgba(0,0,0,0.78);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-box {
+  width: min(650px, 100%);
+  max-height: 85vh;
+  overflow-y: auto;
+
+  background: #101010;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+
+  border: none;
+  background: none;
+  color: #aaa;
+  font-size: 1.7rem;
+}
+
+.close-modal:hover {
+  color: white;
+}
+
+
+/* =========================
+   CHAT
+========================= */
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+
+.ai-avatar {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+
+  background: var(--gold);
+  color: black;
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+.chat-header small {
+  color: #777;
+}
+
+.chat-messages {
+  height: 380px;
+  overflow-y: auto;
+  padding: 20px 0;
+}
+
+.message {
+  max-width: 80%;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.message.ai {
+  background: #1b1b1b;
+  color: #ddd;
+}
+
+.message.user {
+  background: var(--gold);
+  color: #000;
+  margin-left: auto;
+}
+
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  background: #080808;
+  border: 1px solid #292929;
+  color: white;
+  padding: 13px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.chat-input input:focus {
+  border-color: var(--gold);
+}
+
+.chat-input button {
+  width: 48px;
+  border: none;
+  background: var(--gold);
+  border-radius: 10px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  padding: 55px 7%;
+  border-top: 1px solid #1a1a1a;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+footer p {
+  color: #777;
+  margin: 10px 0 25px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.footer-links a:hover {
+  color: var(--gold);
+}
+
+footer small {
+  color: #555;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 1000px) {
+
+  .navbar nav {
+    display: none;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
+    background: #080808;
+
+    flex-direction: column;
+    border-bottom: 1px solid #222;
+  }
+
+  .navbar nav.open {
+    display: flex;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card {
+    display: none;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tutorial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .hero,
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero {
+    padding-top: 130px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-stats {
+    gap: 25px;
+  }
+
+  .tools-grid,
+  .tutorial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-section,
+  .final-cta {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* REDUCE MOTION FOR USERS WHO PREFER IT */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
